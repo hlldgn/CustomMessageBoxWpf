@@ -1,8 +1,5 @@
 # CustomMessageBoxWpf
 
-# CustomMessageBoxWpf
-
-
 First Step
 
 1-Creating our WPF project.
