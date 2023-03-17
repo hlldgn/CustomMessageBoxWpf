@@ -14,9 +14,7 @@ namespace CustomMessageBoxDemo.ViewModel
             DisplayButtons(button??MessageBoxButtonLib.OK);
             DisplayImage(packIcon??PackIconKind.InformationCircle);
 
-
-            ///
-            okButtonCommand = new RelayCommand(OKButtonCommand);
+            okButtonCommand = new RelayCommand(OKButtonCommand);//Example
         }
 
         private RelayCommand okButtonCommand;

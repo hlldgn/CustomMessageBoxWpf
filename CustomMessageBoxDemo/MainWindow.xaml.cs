@@ -30,8 +30,8 @@ namespace CustomMessageBoxDemo
 
         private void btnMessageBox_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResultLib result=CMessageBox.ShowDialogCore("Bu mesaj bir örnektir Halil DOĞAN tarafından yazılmıştır.",
-                "Bilgi",PackIconKind.QuestionAnswer);
+            MessageBoxResultLib result=CMessageBox.ShowDialogCore("Hello World!",
+                "Hello",MessageBoxButtonLib.OK, PackIconKind.QuestionAnswer);
             if (result==MessageBoxResultLib.OK)
             {
                 //result is OK
